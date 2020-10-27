@@ -67,6 +67,7 @@ p {
 	font-weight: 300px;
 	line-height: 30px;
 	padding-bottom: 15px;
+
 }
 
 .text-center {
@@ -199,7 +200,7 @@ clearfix:after,
 	
 }
 
-#contact {
+.contact {
 	background-color: #f5f3f3;
 }
 
@@ -213,7 +214,7 @@ clearfix:after,
 	
 }
 
-.reservation.h2 {
+.reservation h2 {
 	width: 70%;
 	text-align: center; 
 	margin: 0 auto;
@@ -267,17 +268,17 @@ clearfix:after,
 	box-shadow: 0 0 18px rbga(100, 65,0,.8);
 }
 
-.form-spacer {
+.form-space {
 	padding: 30px 39px; 
 }
 
 .terms {
-	margin: 30px 1px 0 0;
+	margin: 30px 1px 0px auto;
 	padding-left: 52px;
 	font-size: 14px;
 	line-height: 5px;
 	color: #000;
-	cursor: pointer;x
+	cursor: pointer;
 	font-family: 'Raleway', 'sans-serif';
 	font-weight: 600;
 }
