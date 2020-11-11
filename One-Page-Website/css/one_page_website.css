@@ -390,7 +390,7 @@ clearfix:after,
 	border-left: 1 solid #090B0D;
 	margin: 10px 1em;
 	border-radius: 7px;
-	baclground: #13161B;
+	background: #13161B;
 	box-shadow: inset 0px 3px 0px rbga(5, 5, 5, 0.15);
 	font-family: 'Raleway', sans-serif;
 }
@@ -433,7 +433,7 @@ footer,nav {
 #footer {
 	background-color: white;
 	color: #000;
-	text-shadow: 2px 2px 8px 0 rbga(0,0,0,.4);
+	text-shadow: 2px 2px 8px rbga(0,0,0,.4);
 	padding: 20px 50px 20px 50px;
 	text-align: right;
 } 
