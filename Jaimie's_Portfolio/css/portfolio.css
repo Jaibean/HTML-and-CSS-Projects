@@ -8,7 +8,7 @@ html {
 body {
 	margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
 	opacity: 1; /* This and transition affect the page loading fade in effect */
-    transition: 3s opacity; /* This causes a 3 second fade in, you can change this time if you choose */
+    transition: 3s opacity; /* This causes a 3 second fade in */
 	letter-spacing: .2vw;
 	font-family: Avant Garde, Helvetica; 
 	font-size: 1.5vw;
@@ -23,7 +23,7 @@ body.fade-out {
 /* Navbar */
 .Navbar {
 	overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
-	background-color: #41354D; /* This colors the navbar purplw */
+	background-color: #41354D; /* This colors the navbar purple */
 	position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
 	top: 0; /* This ensures no space is displayed above the navbar */
 	width: 100%; /* This makes the navbar span the entire width of the page */
@@ -144,17 +144,17 @@ body.fade-out {
 }
 
 .Row:after { /* This inserts something after the content of selected elements */
-	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
+	content: ""; /* By leaving this blank, allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
 	clear: both; /* This clears any other elements from floating on the left or the right of an element */
 }
 
 /* Heading 1 elements */
 h1 {
-	text-transform: uppercase; /* We are capitalizing our headings */
+	text-transform: uppercase; 
 	font-family: "Trebuchet MS", Optima; 
 	text-align: center;
-	margin-top: 1%; /* We are adding a small margin above the headings */
+	margin-top: 1%; /* adding a small margin above the headings */
 	color: #41354D;
 	text-shadow: 2px 2px 2px #5D9B84;
 }
@@ -194,14 +194,14 @@ img {
     height: 340px; 
 	margin-left: auto; /* This in combination with margin-right: auto centers our images */
     margin-right: auto;
-	display: block;	/* By specifying block display we can ensure our images are able to be centered */
+	display: block;	/* By specifying block display can ensure our images are able to be centered */
 }
 
 /* Contact form */
 input[type=text] { /* This covers the input sections of the contact form */
 	width: 100%;
 	padding: 12px;
-    border: 1px solid #ccc; /* We are setting a solid border and its colors */
+    border: 1px solid #ccc; /* Setting a solid border and its colors */
     border-radius: 4px; 
     box-sizing: border-box;
     margin-top: 6px;
